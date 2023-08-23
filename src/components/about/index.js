@@ -18,6 +18,7 @@ function about() {
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore exercitationem, vel numquam quo sint autem eius dicta fugit impedit pariatur recusandae corporis assumenda architecto odio aperiam ipsum voluptatem rem atque.</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore exercitationem, vel numquam quo sint autem eius dicta fugit impedit pariatur recusandae corporis assumenda architecto odio aperiam ipsum voluptatem rem atque.</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore exercitationem, vel numquam quo sint autem eius dicta fugit impedit pariatur recusandae corporis assumenda architecto odio aperiam ipsum voluptatem rem atque.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore exercitationem, vel numquam quo sint autem eius dicta fugit impedit pariatur recusandae corporis assumenda architecto odio aperiam ipsum voluptatem rem atque.</p>
                 </div>
             </div>
         </section>
