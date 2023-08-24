@@ -1,7 +1,8 @@
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <section id="about me" className="my-5 intro">
+    <div class="flex-row">
+      <h1 id="about" className="section-title primary-border">About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -11,5 +12,6 @@ export default function About() {
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
     </div>
+    </section>
   );
 }
