@@ -1,22 +1,84 @@
+import React from 'react';
+
 export default function Profile() {
+  const projects = [
+    {
+      id: 0,
+      title: "Unknown",
+      languages: "Unknown",
+      packages: "Unknown",
+      image: "screenshot", // use an actual image URL here
+      description: "Description",
+      repo: "Repository Link",
+      live: "Deployment Link"
+    },
+    {
+      id: 1,
+      title: "Unknown",
+      languages: "Unknown",
+      packages: "Unknown",
+      image: "screenshot", // use an actual image URL here
+      description: "Description",
+      repo: "Repository Link",
+      live: "Deployment Link"
+    },
+    {
+      id: 2,
+      title: "Unknown",
+      languages: "Unknown",
+      packages: "Unknown",
+      image: "screenshot", // use an actual image URL here
+      description: "Description",
+      repo: "Repository Link",
+      live: "Deployment Link"
+    },
+    {
+      id: 3,
+      title: "Unknown",
+      languages: "Unknown",
+      packages: "Unknown",
+      image: "screenshot", // use an actual image URL here
+      description: "Description",
+      repo: "Repository Link",
+      live: "Deployment Link"
+    },
+    {
+      id: 3,
+      title: "Unknown",
+      languages: "Unknown",
+      packages: "Unknown",
+      image: "screenshot", // use an actual image URL here
+      description: "Description",
+      repo: "Repository Link",
+      live: "Deployment Link"
+    },
+
+    
+  ];
+
   return (
     <div>
-      <h1>Profile Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <section id="work" className="jobs">
+        <h2 className="section-title secondary-border">Projects</h2>
+        <div className="flex-row">
+          {projects.map(project => (
+            <div key={project.id} className="project-card">
+              <img src={project.image} alt={project.title} />
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <div className="project-links">
+                <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                  Repository
+                </a>
+                <a href={project.live} target="_blank" rel="noopener noreferrer">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        <hr />
+      </section>
     </div>
   );
 }
