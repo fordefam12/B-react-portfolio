@@ -37,5 +37,11 @@ function contact() {
         setEmail("");
         };
 
-        
+        return (
+            <section id="reach-out" className="contact">
+                <div className="flex-row">
+                    <h2 className="section-title secondary-border"> Reach out</h2>
+                </div>
+            </section>
+        )
     
