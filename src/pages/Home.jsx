@@ -1,4 +1,4 @@
-import Personalimage from "../assets/me.jpg ";
+import Personalimage from "../assets/me.jpg";
 export default function Home() {
   return (
     <section id="about me" className="my-5 intro">
