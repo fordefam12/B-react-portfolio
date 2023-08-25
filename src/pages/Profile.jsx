@@ -4,8 +4,8 @@ export default function Profile() {
   const projects = [
     {
       id: 0,
-      title: "Unknown",
-      languages: "Unknown",
+      title: "code quiz",
+      languages: "javascript, html, css",
       packages: "Unknown",
       image: "screenshot", // use an actual image URL here
       description: "Description",
@@ -14,8 +14,8 @@ export default function Profile() {
     },
     {
       id: 1,
-      title: "Unknown",
-      languages: "Unknown",
+      title: "weather dashBoard",
+      languages: "javascript, html, css",
       packages: "Unknown",
       image: "screenshot", // use an actual image URL here
       description: "Description",
@@ -24,8 +24,8 @@ export default function Profile() {
     },
     {
       id: 2,
-      title: "Unknown",
-      languages: "Unknown",
+      title: "employee tracker",
+      languages: "javascript,MySQL",
       packages: "Unknown",
       image: "screenshot", // use an actual image URL here
       description: "Description",
@@ -34,8 +34,8 @@ export default function Profile() {
     },
     {
       id: 3,
-      title: "Unknown",
-      languages: "Unknown",
+      title: "game box",
+      languages: "javascript, html, css",
       packages: "Unknown",
       image: "screenshot", // use an actual image URL here
       description: "Description",
@@ -44,8 +44,8 @@ export default function Profile() {
     },
     {
       id: 4,
-      title: "Unknown",
-      languages: "Unknown",
+      title: "Plutus",
+      languages: "javascript, html, css, handlebars",
       packages: "Unknown",
       image: "screenshot", // use an actual image URL here
       description: "Description",

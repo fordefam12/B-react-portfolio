@@ -13,11 +13,11 @@ export default function Contact() {
           <Form.Control className="mb-2" id="inlineFormInput" placeholder="Jane Doe"/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="name@example.com" />
+        <Form.Label>Email:</Form.Label>
+        <Form.Control type="email" placeholder="username@example.com" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Example textarea</Form.Label>
+        <Form.Label>Message:</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
       <br />
