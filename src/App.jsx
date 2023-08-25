@@ -17,7 +17,7 @@ function App() {
               className="my-pic"
               width={200}
               height={100}
-              src="src/assets/Gear_5_Infobox.png"
+              src="./assets/Gear_5_Infobox.png"
               alt="Brandon forde"
             />
             Brandon's Portfolio
