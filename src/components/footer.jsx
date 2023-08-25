@@ -11,15 +11,15 @@ function Footer() {
   ];
 
   return (
-    <footer class="text-center">
+    <footer className="text-center">
       <h2>Made by Brandon Forde</h2>
       <ul className="social-icons ">
         {socialLinks.map((link, index) => (
-          <a class='pl-3 m-2' key={index} className="logo">
+          <div key={index} className="logo p-3 m-2 d-inline">
             <a href={link.url} target="_blank" rel="noopener noreferrer">
               {link.icon}
             </a>
-          </a>
+          </div>
         ))}
       </ul>
     </footer>

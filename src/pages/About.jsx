@@ -1,8 +1,10 @@
 
 export default function About() {
+  
   return (
-    <section id="about me" className="my-5 intro">
-      <div class="flex-row">
+    <section id="about me" className="my-5 intro flex-row">
+      <div className="App"></div>
+      <div>
         <h1 id="about" className="section-title primary-border">
           About Me
         </h1>
