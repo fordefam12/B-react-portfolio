@@ -22,7 +22,7 @@ export default function Contact() {
       </Form.Group>
       <br />
 
-      <Form.Group as={Row} className="mb-3">
+      <Form.Group as={Row} className="mb-3 app-container">
         <Col sm={{ span: 10, offset: 2 }}>
           <Button type="submit">Submit</Button>
         </Col>

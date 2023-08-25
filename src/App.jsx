@@ -1,22 +1,29 @@
-// Bringing in the required import from 'react-router-dom'
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import Footer from './components/footer';
+import './App.css';
+
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <>
-    <div className='col inline'>
-    <h1 className='bg-primary'>Brandons porfolio</h1>
-      <Nav />
-      <main className="col mx-3">
+    <div className='container-fluid app-container '>
+      
+      <header className='row app-header bg-danger'>
+        <div className='col-md-6'>
+          <h1>Brandon's Portfolio</h1>
+        </div>
+        <div className='col-md-6 d-flex justify-content-end '>
+          <Nav />
+        </div>
+      </header>
+      <main className='app-main'>
         <Outlet />
       </main>
-      <Footer></Footer>
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
 export default App;
+
