@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import Nav from "./components/NavTabs";
 import Footer from "./components/footer";
 import "./App.css";
-
+import PersonalLogo from "./assets/Gear_5_Infobox.png" 
 
 function App() {
  
@@ -17,7 +17,7 @@ function App() {
               className="my-pic"
               width={200}
               height={100}
-              src="./assets/Gear_5_Infobox.png"
+              src={PersonalLogo}
               alt="Brandon forde"
             />
             Brandon's Portfolio
