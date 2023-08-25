@@ -1,8 +1,9 @@
+import Personalimage from "./assets/me.png" 
 export default function Home() {
   return (
     <section id="about me" className="my-5 intro">
       <div className="flex-row">
-      <img className="my-pic" width={200} height={100} src='src/assets/me.jpg'alt="Brandon forde"/>
+      <img className="my-pic" width={200} height={100} src={Personalimage}alt="Brandon forde"/>
         <h1 id="about" className="section-title primary-border">
           About Me
         </h1>
